@@ -5,10 +5,15 @@ from azureml.core.webservice import Webservice
 ws = Workspace.from_config()
 
 # Set with the deployment name
-name = ""
+name = "autml-deploy"
 
 # load existing web service
 service = Webservice(name=name, workspace=ws)
+print(service)
+
+# Enable Application Insight
+service.update(enable_app_insights=True)
+
 logs = service.get_logs()
 
 for line in logs.split('\n'):
