@@ -11,7 +11,7 @@ With this project, we are tasked to deploy and consume a machine Learning model 
 
 - With this step, we will need to make sure to enable authentication which is crucial for the continuous flow of operations. Authentication Types supported by Azure ML are Key-based, Token-based and Interactive.
 -  We will also need to create a Service Principal account and associate it with workspace to enable access of specific resource.
-- NOTE: As we are using Azure Account configured by Udacity, we will not need to perform this step.
+- **NOTE:** As we are using Azure Account configured by Udacity, we will not need to perform this step.
 
 ### 2. Automated ML Experiment:
 
@@ -27,6 +27,7 @@ We will create and execute a new Auomated ML run by selecting above created data
 Details of best performing model and performance metrics for configured AutoML run with provided dataset is the VotingEnsemble model with Accuracy `92.05%` is shown as follows.
 
 ![autoML Run Details](Results/Step2/AutoML_BestPerformingModel_Detail.JPG)
+
 ![autoML Run Metrics](Results/Step2/AutoML_BestPerformingModels_Metrics.JPG)
 
 Different algorithms used by each child run of Automated ML is as follows.
@@ -97,11 +98,11 @@ To consume/interact with deployed model, we will be using `endpoint.py` script m
 
 ![Service Response](Results/Step6/ConsumeEndpoint_Result.PNG)
 
-	#### 6.1 Benchmark the Endpoint:
-	
-	- Using Apache Benchmark, we will be creating a baseline performance measure for deployed HTTP service.
-	
-	- Execution result of provided `benchmark.sh` script shown as follows.
+#### 6.1 Benchmark the Endpoint:
+
+- Using Apache Benchmark, we will be creating a baseline performance measure for deployed HTTP service.
+
+- Execution result of provided `benchmark.sh` script shown as follows.
 
 ![Benchmark 1](Results/Step6/Benchmark_1.PNG)
 
@@ -145,6 +146,3 @@ Scheduled pipeline run using Python SDK displaying in Azure ML Studio.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
