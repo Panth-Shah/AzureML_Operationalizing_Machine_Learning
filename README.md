@@ -145,4 +145,4 @@ Scheduled pipeline run using Python SDK displaying in Azure ML Studio.
 ![Scheduled Pipeline Run](Results/Step7/Pipeline_Monitor.PNG)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+Screen Recording with detailed explanation uploaded and can be found using [Link](https://youtu.be/mCt8VI2WYgA)
