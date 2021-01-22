@@ -3,7 +3,10 @@
 With this project, we are tasked to deploy and consume a machine Learning model on Microsoft Azure. We will be using the Azure ML Studio and the Python SDK to enable authentication, run an Auotmated ML experiment to train and deploy the best model. We will also enable Application Insight to monitor information about deployed service while consuming the model using RESTFul endpoint. Finally, we will create, publish and interact with a pipeline to automate the model deployment workflow. Published pipeline allows external services to inteact with the model. For this project, we will be using Bank Marketing Dataset, same as project 1.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+Architecture diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model".
+
+![architecture](Results/Architecture.png)
 
 ## Key Steps
 
